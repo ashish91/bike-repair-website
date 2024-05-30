@@ -1,0 +1,204 @@
+html {
+  /* height: 100%; */
+}
+
+body {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid lightgrey;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item {
+  background-size: cover;
+  background-position: bottom;
+
+  min-height: 250px;
+  width: 30%;
+  text-align: center;
+
+  padding: 30px 20px 30px 30px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.card-item p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 10px;
+}
+
+.card-item i {
+  font-size: 100px;
+  padding-top: 30px;
+}
+
+.card1 {
+  background-image: url(images/image-background-card1.jpg);
+}
+
+.card2 {
+  background-image: url(images/image-background-card2.jpg);
+}
+
+.card3 {
+  background-image: url(images/image-background-card3.jpg);
+}
+
+.herobox1 {
+  width: 50%;
+  flex: 2;
+}
+
+.herobox1>p {
+  padding-right: 100px;
+}
+
+.herobox2 {
+  width: 50%;
+  flex: 1;
+}
+
+.herobox2>img {
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair", serif;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair", serif;
+  margin-top 20px;
+}
+
+p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbutton {
+  border: 1px solid white;
+  border-radius: 12px;
+
+  font-family: "Playfair", serif;
+  padding: 11px 25px;
+
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+  padding-top: 20px;
+  text-align: center;
+}
+
+.dropdown-items {
+  border: 1px solid lightgrey;
+
+  font-family: "Playfair", serif;
+
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+
+  padding: 10px 20px;
+  width: 120px;
+
+  margin-left: -20px;
+  background-color: rgba(255, 255, 255, 0.589);
+}
+
+.dropdown-items>a {
+  color: #fa4083;
+}
+
+.first-dropdown-item {
+  border-radius: 12px 12px 0 0;
+}
+
+.last-dropdown-item {
+  border-radius: 0 0 12px 12px;
+}
+
+.navbutton>.dropdown {
+  width: 120px;
+}
+
+.navbutton:hover .dropdown {
+  display: block;
+}
+
+.book-online-button {
+  background-color: white;
+  color: #fa4083;
+  font-family: "Playfair", serif;
+  padding: 11px 25px;
+
+  display: inline-block;
+  margin-top: 20px;
+
+  border-radius: 12px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+.book-online-button:hover {
+  background-color: rgb(153, 223, 153);
+  transition-duration: 1s;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
