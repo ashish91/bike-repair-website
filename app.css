@@ -1,9 +1,12 @@
 html {
   /* height: 100%; */
+  background-image: linear-gradient(#fc5e55, #fa4083);
 }
 
 body {
-  background-image: linear-gradient(#fc5e55, #fa4083);
+  background-image: url(images/image-lion-background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: 1.125rem;
@@ -37,6 +40,69 @@ main {
   min-height: 300px;
   display: flex;
   align-items: center;
+}
+
+.contact-us-main {
+  min-height: 300px;
+}
+
+.contact-us-form {
+  margin: 40px 0px;
+}
+
+.form-input-item {
+  margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+
+.label-input-radio {
+  margin-right: 20px;
+}
+
+input[type=radio] {
+  margin-right: 10px;
+}
+
+.form-input-item>select {
+  padding: 7px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+
+  background-color: white;
+  color: #fa4083;
+}
+
+.form-submit-button {
+  background-color: white;
+  color: #fa4083;
+
+  font-size: 15px;
+  padding: 11px 25px;
+
+  border: transparent;
+  border-radius: 12px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+.form-submit-button:hover {
+  background-color: rgb(153, 223, 153);
+  transition-duration: 1s;
+
+  cursor: pointer;
+}
+
+.user-info-input {
+  display: block;
+  margin: 10px 0;
 }
 
 .cards {
